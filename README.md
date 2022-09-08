@@ -1,8 +1,8 @@
-# Transformerend Visitekaartje
+# 🔁 Transformerend Visitekaartje
 
-<img width="1381" alt="Schermafbeelding 2022-06-28 om 13 01 43" src="https://user-images.githubusercontent.com/45170095/176163520-7e850451-ff65-4bc2-a1aa-c7e78bb46120.png">
+<img width="937" alt="Schermafbeelding 2022-09-08 om 14 43 32" src="https://user-images.githubusercontent.com/45170095/189124748-489f8514-55a0-4f14-8ae3-50565fb1acd4.png">
 
-Dit project omvat een proof of concept (poc) waarbij scholieren en docenten de verschillende kanalen en threads vanuit de discord api kunnen zien op één platform dat voor iedereen toegankelijk is.
+Dit project omvat een visitekaartje dat gemaakt is in `SvelteKit`. De getoonde data op dit visitekaartje is afkomstig vanuit een headless CMS genaamd `prismic.io`.
 
 ## 📚 Inhoudsopgave
 
@@ -15,26 +15,25 @@ Dit project omvat een proof of concept (poc) waarbij scholieren en docenten de v
 
 ## ⚡ Kenmerken
 
-Dit project is gemaakt met NodeJS, EJS en CSS. Verder staat hieronder nog een korte lijst met gebruikte tools en middelen.
+Dit project is gemaakt met SvelteKit en Prismic.io. Verder staat hieronder nog een korte lijst met gebruikte tools en middelen.
 
 **Tools**
 
 - 🖥️ VSCode
 - ✍ Pen & Papier
-- 🖼 AdobeXD
 
 **Gebruikte technieken**
 
-- 📟 NodeJS
-- 🚀 EJS
-- 💅 CSS
+- 🚀 SvelteKit
+- 🖼 Prismic.io
+- 💅🏼 CSS
 
 ## 📥 Installatie
 
 1. Clone of download deze repository
 2. Ga naar de root directory van het project.
 3. Gebruik `npm install` om de gebruikte dev dependencies en packages te installeren.
-4. Gebruik `node app.js` om de web-server te starten. Deze is standaard bereikbar op poort `3000`.
+4. Gebruik `npm run dev` om de web-server te starten. Deze is standaard bereikbar op poort `5173`.
 
 ## 🔨 Gebruik
 
@@ -44,9 +43,9 @@ De applicatie is op twee manieren te gebruiken: lokaal en op het web. Lokaal is 
 
 ## 📖 Bronnen
 
-[NodeJS](https://nodejs.dev/)
+[SvelteKit](https://kit.svelte.dev/)
 <br>
-[EJS](https://ejs.co/)
+[Prismic](https://prismic.io/)
 <br>
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
