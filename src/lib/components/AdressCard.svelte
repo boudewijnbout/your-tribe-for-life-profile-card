@@ -1,46 +1,60 @@
-<h3>Factuuradres</h3>
+<section>
+	<h3>Factuuradres</h3>
 
-<article>
-    <img src="images/fdnd-logo.png" alt="">
+	<article>
+		<img src="images/fdnd-logo.png" alt="" />
 
-    <div>
-        <h4>Front-End Design & Development</h4>
-        <span>Sarphatistraat 370, Amsterdam</span>
-        <span>fdnd.nl</span> 
-    </div>   
-</article>
+		<div>
+			<h4>Front-End Design & Development</h4>
+			<span>Sarphatistraat 370, Amsterdam</span>
+			<span>fdnd.nl</span>
+		</div>
+	</article>
+</section>
 
 <style>
-    h3 {
-        color: #fff;
-    }
 
-    article {
-        background-color: rgba(255, 255, 255, 0.3);
-        padding: 1.8rem 1.5rem;
-        border-radius: 1.25rem;
-        display: flex;
-        align-items: center;
-    }
+	section {
+		display: none;
+	}
 
-    img {
-        margin-right: 1rem;
-    }
+	h3 {
+		color: #fff;
+	}
 
-    div {
-        display: flex;
-        flex-direction: column;
-    }
+	article {
+		background-color: rgba(255, 255, 255, 0.3);
+		padding: 1.8rem 1.5rem;
+		border-radius: 1.25rem;
+		display: flex;
+		align-items: center;
+	}
 
-    h4 {
-        color: #fff;
-        font-weight: 400;
-        margin: 0 0 .25rem 0;
-    }
+	img {
+		margin-right: 1rem;
+	}
 
-    span {
-        color: #E5E5E5;
-        font-size: .85rem;
-        font-weight: 200;
-    }
+	div {
+		display: flex;
+		flex-direction: column;
+	}
+
+	h4 {
+		color: #fff;
+		font-weight: 400;
+		margin: 0 0 0.25rem 0;
+	}
+
+	span {
+		color: #e5e5e5;
+		font-size: 0.85rem;
+		font-weight: 200;
+	}
+
+	@media (min-width: 75rem) {
+		section {
+			display: block;
+			grid-area: AdressCard;
+		}
+	}
 </style>
