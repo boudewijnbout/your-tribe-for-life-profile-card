@@ -51,7 +51,7 @@
 		font-weight: 200;
 	}
 
-	@media (min-width: 75rem) {
+	@media (min-width: 50rem) {
 		section {
 			display: block;
 			grid-area: AdressCard;

@@ -11,7 +11,7 @@
 </script>
 
 <main>
-	<h1>Winkelmandje</h1>
+	<h1>Wie ben ik?</h1>
 
 	<!-- AdressCard -->
 	<AdressCard />
@@ -73,7 +73,7 @@
 		background-image: linear-gradient(90deg, #2e424d, #5b8291 80%);
 		background-repeat: no-repeat;
 		background-size: cover;
-		/* height: 100vh; */
+		background-attachment: fixed;
 	}
 
 	main {
@@ -89,18 +89,37 @@
 
 	h1 {
 		color: #fff;
+		font-size: 1.85rem;
+		margin-left: 1rem;
 	}
 
-	@media (min-width: 75rem) {
+	@media (min-width: 37.5rem) {
 		main {
-			margin: 3rem 4.5rem;
+			margin: 1rem 1rem;
 			display: grid;
-			grid-template-columns: .7fr .7fr 1.6fr;
+			grid-template-columns: .7fr .7fr;
 			grid-template-rows: auto .5fr .5fr;
 			grid-template-areas:
 			". . PersonalInformation"
 			"AdressCard AdressCard PersonalInformation"
 			"DeliveryCard PaymentCard PersonalInformation";
+		}
+
+		h1 {
+			margin-left: 0;
+		}
+	}
+
+	@media (min-width: 56.25rem) {
+		main {
+			margin: 2rem 2rem;
+		}
+	}
+
+	@media (min-width: 62.5rem) {
+		main {
+			margin: 5rem 5rem;
+			grid-template-columns: .7fr .7fr 1.6fr;
 		}
 	}
 </style>

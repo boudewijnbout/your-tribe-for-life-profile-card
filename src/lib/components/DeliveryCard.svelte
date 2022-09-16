@@ -24,10 +24,12 @@
 		padding: 1.8rem 1.5rem;
 	}
 
-	@media (min-width: 75rem) {
+	@media (min-width: 37.5rem) {
 		section {
 			display: block;
 			grid-area: DeliveryCard;
+			margin-top: 2.25rem;
+			margin-right: 1rem;
 		}
 	}
 </style>
