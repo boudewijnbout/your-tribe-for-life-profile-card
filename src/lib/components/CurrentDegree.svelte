@@ -20,6 +20,8 @@
 
 	h3 {
 		color: #fff;
+		font-size: 1.25rem;
+		font-weight: 300;
 	}
 
 	article {
@@ -32,7 +34,7 @@
 
 	img {
 		margin-right: 1rem;
-		width: 15%;
+		width: 30%;
 		height: auto;
 	}
 
@@ -48,9 +50,10 @@
 	}
 
 	span {
-		color: #e5e5e5;
+		color: #fff;
 		font-size: 0.85rem;
 		font-weight: 200;
+		margin-bottom: .2rem;
 	}
 
 	@media (min-width: 62.5rem) {

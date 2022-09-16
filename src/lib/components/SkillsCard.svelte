@@ -13,6 +13,8 @@
 	}
 	h3 {
 		color: #fff;
+		font-weight: 300;
+		font-size: 1.25rem;
 	}
 
 	ul {

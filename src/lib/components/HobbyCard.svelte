@@ -14,6 +14,8 @@
 
 	h3 {
 		color: #fff;
+		font-size: 1.25rem;
+		font-weight: 300;
 	}
 
 	ul {

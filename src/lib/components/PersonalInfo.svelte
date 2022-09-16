@@ -18,7 +18,6 @@
 	section {
 		background-color: rgba(255, 255, 255, 0.3);
 		border-radius: 1.25rem;
-		/* margin-left: 3rem; */
 		padding: 1rem 1rem;
 	}
 
@@ -66,6 +65,10 @@
 			grid-row: none;
 			grid-area: PersonalInformation;
 			margin-left: 3rem;
+		}
+
+		h2 {
+			font-size: 1.5rem;
 		}
 	}
 </style>
