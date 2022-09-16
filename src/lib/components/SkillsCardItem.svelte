@@ -1,17 +1,14 @@
 <script>
-	export let cardImage;
-	export let cardName;
-	export let cardPrice;
-	export let cardDate;
+	export let skillImage;
+	export let skillName;
 </script>
 
 <li>
 	<figure>
-		<img src={cardImage} alt={cardName} />
+		<img src={skillImage} alt={skillName} />
 	</figure>
 	<div>
-		<span>{cardPrice}</span>
-		<span>{cardDate}</span>
+		<span>{skillName}</span>
 	</div>
 </li>
 
@@ -32,57 +29,32 @@
 		border-radius: 0.5rem;
 		padding: 0.2rem;
 		margin: 0 1.5rem 0 0;
-	}
-
-	li:nth-child(1) > figure {
-		background: #671eb2;
+		background-color: rgba(46, 66, 77, .5);;
 	}
 
 	li:nth-child(1) > figure img {
 		width: 100%;
-	}
-
-	li:nth-child(2) > figure {
-		background: #543a3b;
+		margin-top: .5rem;
 	}
 
 	li:nth-child(2) > figure img {
-		width: 55%;
-	}
-
-	li:nth-child(3) > figure {
-		background: #3334ab;
+		width: 100%;
 	}
 
 	li:nth-child(3) > figure img {
-		width: 70%;
-	}
-
-	li:nth-child(4) > figure {
-		background: #fed217;
+		width: 85%;
 	}
 
 	li:nth-child(4) > figure img {
-		width: 100%;
+		width: 140%;
 	}
 
 	img {
 		width: 90%;
 	}
 
-	div {
-		display: flex;
-		flex-direction: column;
-	}
-
 	span:nth-child(1) {
 		margin-bottom: .25rem;
 		font-weight: 400;
-	}
-
-	span:nth-child(2) {
-		color: #E5E5E5;
-		font-weight: 200;
-		font-size: .85rem;
-	}
+    }   
 </style>

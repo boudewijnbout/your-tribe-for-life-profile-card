@@ -1,8 +1,8 @@
 <section>
-	<h3>Factuuradres</h3>
+	<h3>Huidige opleiding:</h3>
 
 	<article>
-		<img src="images/fdnd-logo.png" alt="" />
+		<img src="images/fdnd-logo.png" alt="Front-End Design & Development Logo" />
 
 		<div>
 			<h4>Front-End Design & Development</h4>
@@ -32,6 +32,8 @@
 
 	img {
 		margin-right: 1rem;
+		width: 15%;
+		height: auto;
 	}
 
 	div {
@@ -51,10 +53,14 @@
 		font-weight: 200;
 	}
 
-	@media (min-width: 50rem) {
+	@media (min-width: 62.5rem) {
 		section {
 			display: block;
-			grid-area: AdressCard;
+			grid-area: CurrentDegree;
+		}
+
+		img {
+			width: 11%;
 		}
 	}
 </style>

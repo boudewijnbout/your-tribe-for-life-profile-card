@@ -26,7 +26,6 @@
 		background-image: url("/images/personal-image.jpeg");
 		background-size: cover;
 		background-position: center 30%;
-		/* height: 25vh; */
 		height: 35vh;
 		border-radius: 0.6rem;
 		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,

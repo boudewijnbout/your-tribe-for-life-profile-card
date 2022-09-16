@@ -1,10 +1,10 @@
 <script>
 	import * as prismicH from "@prismicio/helpers";
-	import AdressCard from "$lib/components/AdressCard.svelte";
-	import DeliveryCard from "$lib/components/DeliveryCard.svelte";
-	import DeliveryCardItem from "$lib/components/DeliveryCardItem.svelte";
-	import PaymentCard from "$lib/components/PaymentCard.svelte";
-	import PaymentCardItem from "$lib/components/PaymentCardItem.svelte";
+	import CurrentDegree from "$lib/components/CurrentDegree.svelte";
+	import HobbyCard from "$lib/components/HobbyCard.svelte";
+	import HobbyCardItem from "$lib/components/HobbyCardItem.svelte";
+	import SkillsCard from "$lib/components/SkillsCard.svelte";
+	import SkillsCardItem from "$lib/components/SkillsCardItem.svelte";
 	import PersonalInfo from "$lib/components/PersonalInfo.svelte";
 
 	export let data;
@@ -13,56 +13,53 @@
 <main>
 	<h1>Wie ben ik?</h1>
 
-	<!-- AdressCard -->
-	<AdressCard />
+	<!-- CurrentDegree -->
+	<CurrentDegree />
 
-	<!-- DeliveryCard -->
-	<DeliveryCard>
-		<DeliveryCardItem
-			cardImage="/images/fedex-logo@2x.png"
-			cardPrice="&euro; 0.99"
-			cardDate="22.07.2022"
+	<!-- HobbyCard -->
+	<HobbyCard>
+		<HobbyCardItem
+			cardImage="💻"
+			cardName="Programmeren"
 			alt=""
 		/>
-		<DeliveryCardItem
-			cardImage="/images/ups-logo@2x.png"
-			cardPrice="&euro; 1.20"
-			cardDate="01.08.2022"
+		<HobbyCardItem
+			cardImage="🎨"
+			cardName="Ontwerpen"
 			alt=""
 		/>
-		<DeliveryCardItem
-			cardImage="/images/postnl-logo@2x.png"
-			cardPrice="&euro; 2.25"
-			cardDate="03.08.2022"
+		<HobbyCardItem
+			cardImage="🎮"
+			cardName="Gamen"
 			alt=""
 		/>
-		<DeliveryCardItem
-			cardImage="/images/dhl-logo@2x.png"
-			cardPrice="Gratis"
-			cardDate="04.08.2022"
+		<HobbyCardItem
+			cardImage="🎥"
+			cardName="Films kijken"
 			alt=""
 		/>
-	</DeliveryCard>
+	</HobbyCard>
 
-	<!-- PaymentCard -->
-	<PaymentCard>
-		<PaymentCardItem
-			paymentImage="/images/paypal-logo@2x.png"
-			paymentName="Paypal"
+
+	<!-- SkillsCard -->
+	<SkillsCard>
+		<SkillsCardItem
+			skillImage="/images/sveltekit-logo@2x.png"
+			skillName="SvelteKit"
 		/>
-		<PaymentCardItem
-			paymentImage="/images/mastercard-logo@2x.png"
-			paymentName="MasterCard"
+		<SkillsCardItem
+			skillImage="/images/html-logo@2x.png"
+			skillName="HTML5"
 		/>
-		<PaymentCardItem
-			paymentImage="/images/ideal-logo@2x.png"
-			paymentName="iDeal"
+		<SkillsCardItem
+			skillImage="/images/css-logo@2x.png"
+			skillName="CSS3"
 		/>
-		<PaymentCardItem
-			paymentImage="/images/visa-logo@2x.png"
-			paymentName="Visa"
+		<SkillsCardItem
+			skillImage="/images/js-logo@2x.png"
+			skillName="JavaScript"
 		/>
-	</PaymentCard>
+	</SkillsCard>
 
 	<!-- PersonalInformation Card -->
 	<PersonalInfo />
@@ -74,17 +71,6 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
-	}
-
-	main {
-		/* margin: 6rem 9rem; */
-		/* display: grid;
-		grid-template-columns: 0.7fr 0.7fr 1.6fr;
-		grid-template-rows: auto 0.5fr 0.5fr;
-		grid-template-areas:
-			". . PersonalInformation"
-			"AdressCard AdressCard PersonalInformation"
-			"DeliveryCard PaymentCard PersonalInformation"; */
 	}
 
 	h1 {
@@ -101,8 +87,8 @@
 			grid-template-rows: auto .5fr .5fr;
 			grid-template-areas:
 			". . PersonalInformation"
-			"AdressCard AdressCard PersonalInformation"
-			"DeliveryCard PaymentCard PersonalInformation";
+			"CurrentDegree CurrentDegree PersonalInformation"
+			"HobbyCard SkillsCard PersonalInformation";
 		}
 
 		h1 {
@@ -120,6 +106,11 @@
 		main {
 			margin: 5rem 5rem;
 			grid-template-columns: .7fr .7fr 1.6fr;
+		}
+
+		h1 {
+			font-size: 2rem;
+			margin-top: 0;
 		}
 	}
 </style>

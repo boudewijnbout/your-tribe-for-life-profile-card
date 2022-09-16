@@ -1,5 +1,5 @@
 <section>
-	<h3>Levering</h3>
+	<h3>Mijn skills:</h3>
 
 	<ul>
 		<slot />
@@ -11,10 +11,8 @@
 	section {
 		display: none;
 	}
-
 	h3 {
 		color: #fff;
-		font-weight: 400;
 	}
 
 	ul {
@@ -27,9 +25,8 @@
 	@media (min-width: 37.5rem) {
 		section {
 			display: block;
-			grid-area: DeliveryCard;
+			grid-area: SkillsCard;
 			margin-top: 2.25rem;
-			margin-right: 1rem;
 		}
 	}
 </style>

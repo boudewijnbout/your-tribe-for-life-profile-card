@@ -1,5 +1,5 @@
 <section>
-	<h3>Betaling</h3>
+	<h3>Mijn hobby's:</h3>
 
 	<ul>
 		<slot />
@@ -11,9 +11,9 @@
 	section {
 		display: none;
 	}
+
 	h3 {
 		color: #fff;
-		font-weight: 400;
 	}
 
 	ul {
@@ -26,8 +26,9 @@
 	@media (min-width: 37.5rem) {
 		section {
 			display: block;
-			grid-area: PaymentCard;
+			grid-area: HobbyCard;
 			margin-top: 2.25rem;
+			margin-right: 1rem;
 		}
 	}
 </style>
