@@ -1,6 +1,6 @@
 import * as prismic from '@prismicio/client';
 
-const repositoryName = 'bbsprint13';
+const repositoryName = '';
 
 const createClient = (params) => {
     const client = prismic.createClient(repositoryName, params);

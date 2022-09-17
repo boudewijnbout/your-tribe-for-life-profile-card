@@ -65,13 +65,6 @@
 </main>
 
 <style>
-	:global(body) {
-		background-image: linear-gradient(90deg, #2e424d, #5b8291 80%);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-	}
-
 	h1 {
 		color: #fff;
 		font-size: 1.85rem;
