@@ -18,6 +18,8 @@
 		align-items: center;
 		color: #ffff;
 		margin-bottom: 1.5rem;
+		font-weight: 200;
+		font-size: .9rem;
 	}
 
 	figure {
@@ -43,6 +45,10 @@
 
 	li:nth-child(3) > figure img {
 		width: 85%;
+	}
+
+	li:nth-child(4) {
+		margin-bottom: 0;
 	}
 
 	li:nth-child(4) > figure img {

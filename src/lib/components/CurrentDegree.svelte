@@ -51,8 +51,8 @@
 
 	span {
 		color: #fff;
-		font-size: 0.85rem;
-		font-weight: 200;
+		font-size: 0.83rem;
+		font-weight: 300;
 		margin-bottom: .2rem;
 	}
 

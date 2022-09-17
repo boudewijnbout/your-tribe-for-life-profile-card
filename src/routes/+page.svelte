@@ -1,5 +1,4 @@
 <script>
-	import * as prismicH from "@prismicio/helpers";
 	import CurrentDegree from "$lib/components/CurrentDegree.svelte";
 	import HobbyCard from "$lib/components/HobbyCard.svelte";
 	import HobbyCardItem from "$lib/components/HobbyCardItem.svelte";
@@ -62,7 +61,7 @@
 	</SkillsCard>
 
 	<!-- PersonalInformation Card -->
-	<PersonalInfo />
+	<PersonalInfo name={data.document.name} description={data.document.description} />
 </main>
 
 <style>

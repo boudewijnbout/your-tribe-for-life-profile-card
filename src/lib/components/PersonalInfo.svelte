@@ -1,15 +1,17 @@
+<script>
+	export let name;
+	export let description;
+
+</script>
+
 <section>
 	<div>
-		<h2>Boudewijn Bout</h2>
+		<h2>{name}</h2>
 	</div>
 
 	<article>
 		<p>
-			Hi! Mijn naam is Boudewijn Bout. Ik ben 21 jaar oud en volg de opleiding
-			FDND Bij de HvA in Amsterdam. In mijn vrije tijd vind ik het leuk om bezig
-			te zijn met: Programmeren, schetsen / vormgeven en gamen. Qua huisdieren
-			heb ik een Hond. Als ik aan het gamen ben speel ik het liefst spellen,
-			zoals: WarThunder, Call of Duty en GTA 5.
+			{description}
 		</p>
 	</article>
 </section>

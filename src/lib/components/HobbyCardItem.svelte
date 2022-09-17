@@ -18,6 +18,12 @@
 		align-items: center;
 		color: #ffff;
 		margin-bottom: 1.5rem;
+		font-weight: 300;
+		font-size: .9rem;
+	}
+
+	li:nth-child(4) {
+		margin-bottom: 0;
 	}
 
 	figure {
