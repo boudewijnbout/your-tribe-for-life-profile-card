@@ -72,5 +72,10 @@
 		h2 {
 			font-size: 1.5rem;
 		}
+
+		p {
+			font-size: 1.05rem;
+			line-height: 1.75rem;
+		}
 	}
 </style>

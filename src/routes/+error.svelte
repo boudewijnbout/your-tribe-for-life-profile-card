@@ -5,7 +5,7 @@
 <section>
     <h1>Error: {$page.status}</h1>
     <article>
-        <p>Onee! Er is een foutmelding ontstaan. Lees onderstaande tekst voor meer informatie.</p>
+        <p>Ohnee! Er is een foutmelding ontstaan. Lees onderstaande tekst voor meer informatie.</p>
         <p>{$page.error.message}</p>
     </article>
 </section>
