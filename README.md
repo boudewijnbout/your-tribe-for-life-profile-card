@@ -1,6 +1,7 @@
 # Visitekaartje Versie 2
 
-<img width="937" alt="Schermafbeelding 2022-09-08 om 14 43 32" src="https://user-images.githubusercontent.com/45170095/189124748-489f8514-55a0-4f14-8ae3-50565fb1acd4.png">
+<img width="1000" alt="Schermafbeelding 2022-09-20 om 10 11 18" src="https://user-images.githubusercontent.com/45170095/191204028-924392a6-e507-4dae-96b7-e4c7f4407d69.png">
+
 
 Dit project omvat een visitekaartje dat gemaakt is in `SvelteKit`. De getoonde data op dit visitekaartje is afkomstig vanuit een headless CMS genaamd `prismic.io`.
 
